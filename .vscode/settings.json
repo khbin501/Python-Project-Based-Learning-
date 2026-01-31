@@ -1,0 +1,9 @@
+{
+    "editor.fontFamily": "JetBrains Mono, goorm Sans, D2Coding",
+    "editor.allowVariableFontsInAccessibilityMode": true,
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.formatOnSave": true,
+    "editor.fontSize": 18,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10
+}

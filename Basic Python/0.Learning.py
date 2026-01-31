@@ -71,18 +71,18 @@ test_list = [i*2 for i in range(10)]
 
 print(test_list)
 
-try:
-        dfcfgdfsd
+# try:
+#         dfcfgdfsd
 
-except NameError:
-        print("undefined name")
-except TypeErrorr:
-        print('type is wrong')
+# except NameError:
+#         print("undefined name")
+# except TypeErrorr:
+#         print('type is wrong')
 
-else:
-        print("성공")
-finally :
-        print("종료")
+# else:
+#         print("성공")
+# finally :
+#         print("종료")
 
 
 def fun1(a,b):
@@ -94,8 +94,24 @@ _,b = fun1(5,3)
 
 print(b)
 
+class Student():
+        def __init__(self,name,age,like):
+                self.__name = name
+                self.__age = age
+                self.__like = like
+                
+        def student_info(self):
+                print(f"이름 : {self.__name} 나이 : {self.__age} 흥미 : {self.__like}")
 
+Kim = Student('kim',20,'game')
 
+Kim.student_info()
 
+"""
+주석을 주석석석
+달아봅시다
 
+"""
+import random as rd
 
+print(rd.randint(1,100))

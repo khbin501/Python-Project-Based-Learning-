@@ -9,8 +9,8 @@ def thread_1(i):
     
         
         
-t1 = threading.Thread(target=thread_1, daemon=True,args=(1,)) # thread_1 함수를 실행하라고 시킴
-t2 = threading.Thread(target=thread_1, daemon=True,args=(2,))
+t1 = threading.Thread(target=thread_1, daemon=True, args=(1,)) # thread_1 함수를 실행하라고 시킴
+t2 = threading.Thread(target=thread_1, daemon=True, args=(2,))
 t1.start()
 t2.start()
 
